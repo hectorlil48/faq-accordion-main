@@ -34,6 +34,8 @@ body {
   background-color: var(--purple-100);
   min-height: 100vh;
   padding: 142.5px 24px;
+  font-family: "Work Sans", sans-serif;
+  color: var(--purple-950);
 }
 
 .accordion {
