@@ -13,6 +13,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--purple-100);
+  min-height: 100vh;
+  padding: 142.5px 24px;
+}
+
+.accordion {
+  margin: 0 auto;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
 .accordion-question[aria-expanded="false"] .plus-icon {
   display: block;
 }
