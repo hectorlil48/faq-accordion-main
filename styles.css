@@ -7,6 +7,28 @@
   --purple-950: hsl(292, 42%, 14%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion-question[aria-expanded="false"] .plus-icon {
+  display: inline;
+}
+
+.accordion-question[aria-expanded="false"] .minus-icon {
+  display: none;
+}
+
+.accordion-question[aria-expanded="true"] .plus-icon {
+  display: none;
+}
+
+.accordion-question[aria-expanded="true"] .minus-icon {
+  display: inline;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
