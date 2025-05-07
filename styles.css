@@ -44,6 +44,8 @@ body {
   align-items: center;
 }
 
+/* Accordin Title */
+
 .accordion-title {
   margin-bottom: 24px;
   justify-content: start;
@@ -58,6 +60,27 @@ body {
 .title {
   font-size: 2rem;
   font-weight: 700;
+}
+
+.accordion-question {
+  width: 100%;
+  gap: 24px;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.accordion-answer {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--purple-600);
+  padding: 24px 0 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--purple-100);
+}
+
+.accordion-answer:last-of-type {
+  margin-bottom: 0;
 }
 
 .accordion {
