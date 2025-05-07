@@ -86,7 +86,7 @@ body {
   border-bottom: 1px solid var(--purple-100);
 }
 
-.accordion-answer:last-of-type {
+.accordion-items:last-of-type .accordion-answer {
   margin-bottom: 0;
   border-bottom: none;
 }
