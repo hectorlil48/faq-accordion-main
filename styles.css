@@ -44,6 +44,13 @@ body {
   align-items: center;
 }
 
+.accordion {
+  margin: 0 auto;
+  padding: 24px;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+}
 /* Accordin Title */
 
 .accordion-title {
@@ -81,14 +88,7 @@ body {
 
 .accordion-answer:last-of-type {
   margin-bottom: 0;
-}
-
-.accordion {
-  margin: 0 auto;
-  padding: 24px;
-  background-color: var(--white);
-  border-radius: 8px;
-  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+  border-bottom: none;
 }
 
 .accordion-question[aria-expanded="false"] .plus-icon {
