@@ -99,6 +99,10 @@ body {
   transition: font-size 0.5s ease, padding 0.5s ease, margin 0.5s ease;
 }
 
+.answer {
+  display: none;
+}
+
 .accordion-items:last-of-type .accordion-answer {
   margin-bottom: 0;
   border-bottom: none;
@@ -159,5 +163,9 @@ body {
     font-size: 1rem;
     padding-bottom: 24px;
     margin-bottom: 24px;
+  }
+
+  .accordion-items:last-of-type .accordion-answer {
+    padding: 0;
   }
 }
