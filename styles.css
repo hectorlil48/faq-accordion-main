@@ -32,7 +32,7 @@ button {
 }
 
 body {
-  background-image: url(./assets/images/background-pattern-mobile.svg);
+  background-image: url(/assets/images/background-pattern-mobile.svg);
   background-repeat: no-repeat;
   background-size: auto 232px;
   background-position: center top;
@@ -142,7 +142,7 @@ body {
 
 @media (min-width: 375px) {
   body {
-    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-image: url(/assets/images/background-pattern-desktop.svg);
   }
 }
 
