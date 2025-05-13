@@ -32,12 +32,16 @@ button {
 }
 
 body {
+  background-image: url(/assets/images/background-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: auto 232px;
+  background-position: center top;
   background-color: var(--purple-100);
   min-height: 100vh;
   padding: 142.5px 24px;
   font-family: "Work Sans", sans-serif;
   color: var(--purple-950);
-  transition: padding 0.5s ease;
+  transition: padding 0.5s ease, background-size 0.5s ease;
 }
 
 .flex {
@@ -136,9 +140,16 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+@media (min-width: 375px) {
+  body {
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+  }
+}
+
 @media (min-width: 600px) {
   body {
     padding: 167.5px 24px;
+    background-size: auto 320px;
   }
 
   .accordion {
